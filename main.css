@@ -1,0 +1,146 @@
+
+header {
+    background-image: url("./img/service-img-1.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+}
+header h1 {
+     font-size: 72px;
+     margin-bottom: auto;
+     z-index: 4;
+
+}
+header p {
+    flex-direction: column;
+    margin-bottom: 80%;
+    z-index: 4;
+}
+header::before {
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(77, 14, 139, 0.461);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ .my-nav .nav-link{
+     
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.my-nav .nav-link::after {
+    content: "";
+
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 5px;
+    background-color:blueviolet;
+    transition: 0.5s;
+
+
+}
+
+.my-nav .nav-link:hover::after{
+    width: 80%;
+}
+
+ .my-nav a:hover {
+      
+    border-bottom: 2px solid white;
+}
+
+  .container {
+
+
+    z-index: 10;
+    
+
+
+}
+ .number {
+
+    display: flex;
+
+    z-index: 4;
+    padding-bottom: 10px;
+}
+.premium h1 span {
+      font-size: 40px;
+     margin-left: 40%;
+     margin-right: 40%;
+     display: flex;
+     color: blueviolet;
+
+}
+ .premium h2 span{
+
+     font-size: 40px;
+     margin-left: 40%;
+     margin-right: 40%;
+     display: flex;
+     color: rgba(137, 43, 226, 0.404);
+ }
+ .premium p {
+
+    margin-right: 40%;
+    margin-left: 40%;
+    display: flex;
+    color:black;
+
+
+ }
+  .card  span{
+
+       color: blueviolet;
+      
+
+
+  }
+  .container {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+  }
+  .view-btn {
+     
+     background-color: #2627d9;
+     color: #ffffff;
+     font-family: sans-serif;
+     font-size: 18px;
+     font-weight: 600;
+     padding: 16px 32px;
+     border: none;
+     border-radius: 10px;
+     display: inline-flex;
+     align-items: center;
+     gap: 10px;
+     display: flex;
+     margin: 30px auto;
+
+
+
+
+  }
+   .nav {
+    color: #2627d9;
+   }
